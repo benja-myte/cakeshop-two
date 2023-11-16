@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: 'Nunito', sans-serif;
+}
+
+
+/* Blog section */
+
+#blog2-sect{
+    width: 100%;
+    padding: 0 5%;
+    margin-top: 150px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.blog2-main-div{
+    width: 65%;
+}
+.blog2-inside-div{
+    margin-bottom: 50px;
+    /* border: 1px solid green; */
+}
+.blog2-img-div{
+    width: 100%;
+}
+.blog2-img-div img{
+    width: 100%;
+}
+.blog2-img-div .blog2-date{
+    position: relative;
+    top: -45px;
+    left: 40px;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(228, 201, 83);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 20px;
+    transition: background 0.5s;
+}
+.blog2-img-div .blog2-date:hover{
+    background: transparent;
+}
+.blog2-date p{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 20px;
+    transition: color 0.5s;
+}
+.blog2-date p span{
+    font-size: 18px;
+    font-weight: 100;
+}
+.blog2-date:hover p{
+    color: rgb(228, 201, 83);
+}
+
+.blog2-word{
+    width: 100%;
+    margin-top: -85px;
+    padding: 0 4%;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    box-shadow: 0px 5px 20px 1px rgb(71, 71, 71);
+}
+.blog2-word .a1{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.blog2-word h1{
+    font-size: 24px ;
+    color: white;
+    transition: color 0.5s;
+}
+.blog2-word h1:hover{
+    color: rgb(228, 201, 83);
+}
+.blog2-word p{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.blog2-word .a2{
+    font-size: 12x;
+    text-decoration: none;
+    color: rgb(228, 201, 83);
+    line-height: 50px;
+}
+.blog2-word .a2 i{
+    margin-right: 5px;
+}
+.blog2-word .a2 span{
+    background: rgb(150, 150, 150);
+    padding: 0 0.5px;
+    margin: 0 10px;
+}
+.blog2-word .a2 p{
+    display: inline;
+    color: rgb(228, 201, 83);
+    transition: opacity 0.5s;
+}
+.blog2-word .a2 p:hover{
+    opacity: 0.5;
+}
+
+.next-page{
+    display: flex;
+    justify-content: center;
+    padding: 0 50px;
+}
+.next-page div{
+    background: white;
+    padding: 10px 15px;
+    margin: 0 10px;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.next-page div:hover{
+    background: transparent;
+}
+.next-page div a{
+    text-decoration: none;
+    color: rgb(228, 201, 83);
+    text-align: center;
+    font-weight: 14px;
+}
+
+
+
+/* second part */
+
+.blog2-main2-div{
+    width: 30%;
+}
+.blog-inside-div2{
+    margin-bottom: 50px;
+}
+.search-div{
+    background: rgb(248, 248, 248);
+    padding: 20px 20px;
+}
+.search-div input{
+    width: 78%;
+    height: 45px;
+    background: white;
+    border: 1px solid rgb(150, 150, 150);
+    padding: 10px 20px;
+    color: rgb(71, 71, 71);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    outline: none;
+}
+.search-div input::placeholder{
+    font-weight: 600;
+}
+.search-div button{
+    width: 20%;
+    height: 45px;
+    background: rgb(228, 201, 83);
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.category{
+    background: rgb(248, 248, 248);
+    padding: 20px 30px;
+    padding-bottom: 50px;
+    margin-top: 30px;
+    color: rgb(71, 71, 71);
+}
+.category h1{
+    color: rgb(71, 71, 71);
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+.category .hr{
+    margin-bottom: 40px;
+    height: 1px;
+    border: none;
+    background: rgb(150, 150, 150);
+}
+.category hr{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    height: 1px;
+    border: none;
+    background: rgb(150, 150, 150);
+}
+.category a{
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(71, 71, 71);
+    transition: color 0.3s;
+}
+.category a:hover{
+    color: rgb(228, 201, 83);
+}
+
+
+.post{
+    background: rgb(248, 248, 248);
+    padding: 20px 30px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    color: rgb(71, 71, 71);
+}
+.post h1{
+    color: rgb(71, 71, 71);
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+.post .hr{
+    margin-bottom: 40px;
+    height: 1px;
+    border: none;
+    background: rgb(150, 150, 150);
+}
+.post div{
+    display: flex;
+    margin-bottom: 30px;
+}
+.post div p{
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 20px;
+    margin-top: 25px;
+}
+
+.cloud{
+    background: rgb(248, 248, 248);
+    padding: 20px 30px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    color: rgb(71, 71, 71);
+}
+.cloud h1{
+    color: rgb(71, 71, 71);
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+.cloud .hr{
+    margin-bottom: 30px;
+    height: 1px;
+    border: none;
+    background: rgb(150, 150, 150);
+}
+.cloud div{
+    margin-top: 30px;
+}
+.cloud div button{
+    background: white;
+    padding: 5px 20px;
+    margin-top: 5px;
+    margin-right: 5px;
+    border: 1px solid rgb(216, 216, 216);
+    color: rgb(228, 201, 83);
+    font-size: 12px;
+    font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.cloud div button:hover{
+    background: rgb(228, 201, 83);
+    color: white;
+}
+
+.feed{
+    background: rgb(248, 248, 248);
+    padding: 20px 30px;
+    padding-bottom: 40px;
+    margin-top: 30px;
+    color: rgb(71, 71, 71);
+}
+.feed h1{
+    color: rgb(71, 71, 71);
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+.feed .hr{
+    margin-bottom: 30px;
+    height: 1px;
+    border: none;
+    background: rgb(150, 150, 150);
+}
+
+.feed div{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.feed div a{
+    text-decoration: none;
+}
+.feed div a img{
+    margin-top: 10px;
+}
+
+
+.news{
+    background: rgb(248, 248, 248);
+    padding: 20px 30px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    color: rgb(71, 71, 71);
+}
+.news h1{
+    color: rgb(71, 71, 71);
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+.news .hr{
+    margin-bottom: 30px;
+    height: 1px;
+    border: none;
+    background: rgb(150, 150, 150);
+}
+
+.news input{
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgb(150, 150, 150);
+    background: white;
+    padding: 20px 20px;
+    outline: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.news button{
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgb(228, 201, 83);
+    background: white;
+    color: rgb(134, 120, 56);
+    font-size: 14px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.news button:hover{
+    background: rgb(228, 201, 83);
+    color: rgb(255, 255, 255);
+}
+
+.next2-page{
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    #blog2-sect{
+        width: 100%;
+        padding: 0 5%;
+        margin-top: 150px;
+        margin-bottom: 200px;
+        display: block;
+        justify-content: space-between;
+    }
+    .blog2-main-div{
+        width: 100%;
+    }
+    .blog2-main2-div{
+        width: 100%;
+        margin-top: 100px;
+    }
+    .blog2-word h1{
+        font-size: 18px ;
+    }
+    .blog2-word p{
+        font-size: 12px;
+    }
+    
+    .search-div input{
+        width: 78%;
+    }
+    .search-div button{
+        width: 20%;
+        cursor: pointer;
+    }
+    
+    .next-page{
+        display: none;
+    }
+    .next2-page{
+        display: flex;
+        justify-content: center;
+        padding: 0 50px;
+    }
+    .next2-page div{
+        background: white;
+        padding: 10px 15px;
+        margin: 0 10px;
+        border: 1px solid white;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+    .next2-page div:hover{
+        background: transparent;
+    }
+    .next2-page div a{
+        text-decoration: none;
+        color: rgb(228, 201, 83);
+        text-align: center;
+        font-weight: 14px;
+    }.next2-page{
+        display: flex;
+        justify-content: center;
+        padding: 0 50px;
+    }
+    .next2-page div{
+        background: white;
+        padding: 10px 15px;
+        margin: 0 10px;
+        border: 1px solid white;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+    .next2-page div:hover{
+        background: transparent;
+    }
+    .next2-page div a{
+        text-decoration: none;
+        color: rgb(228, 201, 83);
+        text-align: center;
+        font-weight: 14px;
+    }
+}
